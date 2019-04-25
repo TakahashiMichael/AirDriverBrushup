@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{0f5a0bd5-a13e-4b54-903c-60363874fa02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Docment">
+      <UniqueIdentifier>{3e47bf39-3872-4a7a-98ff-b8dfdec57639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DrawFunc">
+      <UniqueIdentifier>{34b7cfe0-5b0a-4d45-a4c7-076bc7d2e52a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\ProjectMemo">
+      <UniqueIdentifier>{471f6f3e-14b3-403f-bd7f-61d6b3c11f72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\GLSL">
+      <UniqueIdentifier>{2d71a9bc-f62c-4027-aa4e-7c2a6eece8ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\Texture">
+      <UniqueIdentifier>{45f19af2-855e-412e-8194-f911988b9afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\obj">
+      <UniqueIdentifier>{84030d7c-f1a2-4f52-9e30-65f806d7f716}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GLFWEW.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MeshList.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GroundGrid.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Calculation.cpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Camera.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Audio.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TitleScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainGameScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ResultScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Font.cpp">
+      <Filter>DrawFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Texture.cpp">
+      <Filter>DrawFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Shader.cpp">
+      <Filter>DrawFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Sprite.cpp">
+      <Filter>DrawFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SelectManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Debug.cpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TweenAnimation2D.cpp">
+      <Filter>DrawFunc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Res\Shader\2DSprite.frag">
+      <Filter>リソース ファイル\GLSL</Filter>
+    </None>
+    <None Include="Res\Shader\2DSprite.vert">
+      <Filter>リソース ファイル\GLSL</Filter>
+    </None>
+    <None Include="Res\Plane.obj">
+      <Filter>リソース ファイル\obj</Filter>
+    </None>
+    <None Include="Res\human.obj">
+      <Filter>リソース ファイル\obj</Filter>
+    </None>
+    <None Include="Res\House.obj">
+      <Filter>リソース ファイル\obj</Filter>
+    </None>
+    <None Include="Res\Tree.obj">
+      <Filter>リソース ファイル\obj</Filter>
+    </None>
+    <None Include="Res\Bullet.obj">
+      <Filter>リソース ファイル\obj</Filter>
+    </None>
+    <None Include="Res\Shader\Font.frag">
+      <Filter>リソース ファイル\GLSL</Filter>
+    </None>
+    <None Include="Res\Shader\Font.vert">
+      <Filter>リソース ファイル\GLSL</Filter>
+    </None>
+    <None Include="Res\Shader\FragmentLighting.frag">
+      <Filter>リソース ファイル\GLSL</Filter>
+    </None>
+    <None Include="Res\Shader\FragmentLighting.vert">
+      <Filter>リソース ファイル\GLSL</Filter>
+    </None>
+    <None Include="Res\Shader\Simple.frag">
+      <Filter>リソース ファイル\GLSL</Filter>
+    </None>
+    <None Include="Res\Shader\Sprite.frag">
+      <Filter>リソース ファイル\GLSL</Filter>
+    </None>
+    <None Include="Res\Shader\Sprite.vert">
+      <Filter>リソース ファイル\GLSL</Filter>
+    </None>
+    <None Include="Res\Shader\VertexLighting.vert">
+      <Filter>リソース ファイル\GLSL</Filter>
+    </None>
+    <None Include="Res\Shader\Simple.vert">
+      <Filter>リソース ファイル\GLSL</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\GLFWEW.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GroundGrid.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Calculation.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Camera.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Audio.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainGameScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\TitleScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ResultScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Font.h">
+      <Filter>DrawFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Shader.h">
+      <Filter>DrawFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Texture.h">
+      <Filter>DrawFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Sprite.h">
+      <Filter>DrawFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SelectManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Debug.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\FileNameData.h">
+      <Filter>Docment</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MeshList.h">
+      <Filter>DrawFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Geometry.h">
+      <Filter>DrawFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\TweenAnimation2D.h">
+      <Filter>DrawFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GamePad.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\Font\Font.TGA">
+      <Filter>リソース ファイル\Texture</Filter>
+    </Image>
+    <Image Include="Res\TitleLogo.tga">
+      <Filter>リソース ファイル\Texture</Filter>
+    </Image>
+    <Image Include="Res\TitleBack.tga">
+      <Filter>リソース ファイル\Texture</Filter>
+    </Image>
+    <Image Include="Res\StageClear.tga">
+      <Filter>リソース ファイル\Texture</Filter>
+    </Image>
+    <Image Include="Res\Rock.tga">
+      <Filter>リソース ファイル\Texture</Filter>
+    </Image>
+    <Image Include="Res\human.tga">
+      <Filter>リソース ファイル\Texture</Filter>
+    </Image>
+    <Image Include="Res\House.tga">
+      <Filter>リソース ファイル\Texture</Filter>
+    </Image>
+    <Image Include="Res\GameOver.tga">
+      <Filter>リソース ファイル\Texture</Filter>
+    </Image>
+    <Image Include="Res\Texture\White.TGA">
+      <Filter>リソース ファイル\Texture</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpenGL3D2018.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Res\mem\Memo_Program.txt">
+      <Filter>リソース ファイル\ProjectMemo</Filter>
+    </Text>
+    <Text Include="Res\mem\Schedule.txt">
+      <Filter>リソース ファイル\ProjectMemo</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

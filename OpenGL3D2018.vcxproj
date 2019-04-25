@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{4F369B57-D120-4627-B9F7-92BC51F79F8B}</ProjectGuid>
+    <RootNamespace>OpenGL3D2018</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);D:\ユーザー\初期にcから移動\OpenGL3D2018-master %281%29\OpenGL3D2018-master\OpenAL\include</IncludePath>
+    <LibraryPath>\libs\Win32;D:\ユーザー\初期にcから移動\OpenGL3D2018-master %281%29\OpenGL3D2018-master\OpenAL\libs\Win32;D:\ユーザー\初期にcから移動\OpenGL3D2018-master %281%29\OpenGL3D2018-master\libs\Win32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);D:\ユーザー\初期にcから移動\OpenGL3D2018-master %281%29\OpenGL3D2018-master\OpenAL\include</IncludePath>
+    <LibraryPath>\libs\Win32;D:\ユーザー\初期にcから移動\OpenGL3D2018-master %281%29\OpenGL3D2018-master\OpenAL\libs\Win32;D:\ユーザー\初期にcから移動\OpenGL3D2018-master %281%29\OpenGL3D2018-master\libs\Win32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);D:\ユーザー\初期にcから移動\OpenGL3D2018-master %281%29\OpenGL3D2018-master\OpenAL\include</IncludePath>
+    <LibraryPath>\libs\Win64;D:\ユーザー\初期にcから移動\OpenGL3D2018-master %281%29\OpenGL3D2018-master\OpenAL\libs\Win64;D:\ユーザー\初期にcから移動\OpenGL3D2018-master %281%29\OpenGL3D2018-master\libs\Win64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);D:\ユーザー\初期にcから移動\OpenGL3D2018-master %281%29\OpenGL3D2018-master\OpenAL\include</IncludePath>
+    <LibraryPath>\libs\Win64;D:\ユーザー\初期にcから移動\OpenGL3D2018-master %281%29\OpenGL3D2018-master\OpenAL\libs\Win64;D:\ユーザー\初期にcから移動\OpenGL3D2018-master %281%29\OpenGL3D2018-master\libs\Win64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>mfplat.lib;mfuuid.lib;mfreadwrite.lib;xaudio2.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>mfplat.lib;mfuuid.lib;mfreadwrite.lib;xaudio2.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>mfplat.lib;mfuuid.lib;mfreadwrite.lib;xaudio2.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>mfplat.lib;mfuuid.lib;mfreadwrite.lib;xaudio2.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Actor.cpp" />
+    <ClCompile Include="Src\Audio.cpp" />
+    <ClCompile Include="Src\Debug.cpp" />
+    <ClCompile Include="Src\Font.cpp" />
+    <ClCompile Include="Src\Calculation.cpp" />
+    <ClCompile Include="Src\GLFWEW.cpp" />
+    <ClCompile Include="Src\GroundGrid.cpp" />
+    <ClCompile Include="Src\Main.cpp" />
+    <ClCompile Include="Src\MainGameScene.cpp" />
+    <ClCompile Include="Src\MeshList.cpp" />
+    <ClCompile Include="Src\ResultScene.cpp" />
+    <ClCompile Include="Src\SelectManager.cpp" />
+    <ClCompile Include="Src\Shader.cpp" />
+    <ClCompile Include="Src\Camera.cpp" />
+    <ClCompile Include="Src\Sprite.cpp" />
+    <ClCompile Include="Src\Texture.cpp">
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ShowIncludes>
+    </ClCompile>
+    <ClCompile Include="Src\TitleScene.cpp" />
+    <ClCompile Include="Src\TweenAnimation2D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Res\Shader\2DSprite.frag" />
+    <None Include="Res\Shader\2DSprite.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Src\Actor.h" />
+    <ClInclude Include="Src\Audio.h" />
+    <ClInclude Include="Src\Debug.h" />
+    <ClInclude Include="Src\FileNameData.h" />
+    <ClInclude Include="Src\Font.h" />
+    <ClInclude Include="Src\Calculation.h" />
+    <ClInclude Include="Src\Camera.h" />
+    <ClInclude Include="Src\GamePad.h" />
+    <ClInclude Include="Src\Geometry.h" />
+    <ClInclude Include="Src\GLFWEW.h" />
+    <ClInclude Include="Src\GroundGrid.h" />
+    <ClInclude Include="Src\MainGameScene.h" />
+    <ClInclude Include="Src\MeshList.h" />
+    <ClInclude Include="Src\ResultScene.h" />
+    <ClInclude Include="Src\Scene.h" />
+    <ClInclude Include="Src\SelectManager.h" />
+    <ClInclude Include="Src\Shader.h" />
+    <ClInclude Include="Src\Sprite.h" />
+    <ClInclude Include="Src\Texture.h" />
+    <ClInclude Include="Src\TitleScene.h" />
+    <ClInclude Include="Src\TweenAnimation2D.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\Font\Font.TGA" />
+    <Image Include="Res\GameOver.tga" />
+    <Image Include="Res\House.tga" />
+    <Image Include="Res\human.tga" />
+    <Image Include="Res\Rock.tga" />
+    <Image Include="Res\StageClear.tga" />
+    <Image Include="Res\Texture\White.TGA" />
+    <Image Include="Res\TitleBack.tga" />
+    <Image Include="Res\TitleLogo.tga" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\Shader\Font.frag" />
+    <None Include="Res\Shader\Font.vert" />
+    <None Include="Res\Shader\FragmentLighting.frag" />
+    <None Include="Res\Shader\FragmentLighting.vert" />
+    <None Include="Res\Shader\Simple.frag" />
+    <None Include="Res\Shader\Simple.vert" />
+    <None Include="Res\Shader\Sprite.frag" />
+    <None Include="Res\Shader\Sprite.vert" />
+    <None Include="Res\Shader\VertexLighting.vert" />
+    <None Include="Res\Tree.obj">
+      <FileType>Document</FileType>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\House.obj">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\human.obj">
+      <FileType>Document</FileType>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\Plane.obj">
+      <FileType>Document</FileType>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\Bullet.obj">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpenGL3D2018.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Res\mem\Memo_Program.txt" />
+    <Text Include="Res\mem\Schedule.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\nupengl.core.redist.0.1.0.1\build\native\nupengl.core.redist.targets" Condition="Exists('packages\nupengl.core.redist.0.1.0.1\build\native\nupengl.core.redist.targets')" />
+    <Import Project="packages\nupengl.core.0.1.0.1\build\native\nupengl.core.targets" Condition="Exists('packages\nupengl.core.0.1.0.1\build\native\nupengl.core.targets')" />
+    <Import Project="packages\glm.0.9.9\build\native\glm.targets" Condition="Exists('packages\glm.0.9.9\build\native\glm.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>このプロジェクトは、このコンピューター上にない NuGet パッケージを参照しています。それらのパッケージをダウンロードするには、[NuGet パッケージの復元] を使用します。詳細については、http://go.microsoft.com/fwlink/?LinkID=322105 を参照してください。見つからないファイルは {0} です。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\nupengl.core.redist.0.1.0.1\build\native\nupengl.core.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\nupengl.core.redist.0.1.0.1\build\native\nupengl.core.redist.targets'))" />
+    <Error Condition="!Exists('packages\nupengl.core.0.1.0.1\build\native\nupengl.core.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\nupengl.core.0.1.0.1\build\native\nupengl.core.targets'))" />
+    <Error Condition="!Exists('packages\glm.0.9.9\build\native\glm.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\glm.0.9.9\build\native\glm.targets'))" />
+  </Target>
+</Project>
