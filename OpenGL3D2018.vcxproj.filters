@@ -90,6 +90,9 @@
     <ClCompile Include="Src\TweenAnimation2D.cpp">
       <Filter>DrawFunc</Filter>
     </ClCompile>
+    <ClCompile Include="Src\DriveScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -208,6 +211,9 @@
     </ClInclude>
     <ClInclude Include="Src\GamePad.h">
       <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DriveScene.h">
+      <Filter>Scene</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

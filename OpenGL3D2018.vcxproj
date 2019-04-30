@@ -145,6 +145,7 @@
     <ClCompile Include="Src\Actor.cpp" />
     <ClCompile Include="Src\Audio.cpp" />
     <ClCompile Include="Src\Debug.cpp" />
+    <ClCompile Include="Src\DriveScene.cpp" />
     <ClCompile Include="Src\Font.cpp" />
     <ClCompile Include="Src\Calculation.cpp" />
     <ClCompile Include="Src\GLFWEW.cpp" />
@@ -174,6 +175,7 @@
     <ClInclude Include="Src\Actor.h" />
     <ClInclude Include="Src\Audio.h" />
     <ClInclude Include="Src\Debug.h" />
+    <ClInclude Include="Src\DriveScene.h" />
     <ClInclude Include="Src\FileNameData.h" />
     <ClInclude Include="Src\Font.h" />
     <ClInclude Include="Src\Calculation.h" />

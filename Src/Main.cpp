@@ -6,6 +6,7 @@
 #include "MainGameScene.h"
 #include "TitleScene.h"
 #include "ResultScene.h"
+#include "DriveScene.h"
 #include <memory>
 #include "Audio.h"
 #include "Sprite.h"
@@ -56,6 +57,10 @@ int main()
 	  }
 	  else if (pScene->NextScene()=="Result") {
 		  pScene.reset(new ResultScene);
+	  }
+	  else if (pScene->NextScene()=="Drive")
+	  {
+		  pScene.reset(new DriveScene);
 	  }
       if (!pScene->Initialize()) {
         return 1;

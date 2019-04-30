@@ -357,7 +357,7 @@ void TitleScene::Finalize()
 */
 void CopyTitle::NextStage()
 {
-	NextScene("MainGame");
+	NextScene("Drive");
 }
 
 

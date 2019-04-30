@@ -27,6 +27,7 @@ public:
   virtual void Render() override;
   virtual void Finalize() override;
 
+
   enum class STATE {
 	  e_STATE_STAY,			//ƒvƒŒƒ[ƒ“—p,“ü—Í‚Ü‚Å‘Ò‚Â
 	  e_STATE_BEGIN_0,		//project by takahashi‚Ì‚Æ‚±‚ë.
